@@ -1,6 +1,6 @@
 # Irish-LLM
 
-Continued pretraining and tokenizer adaptation of Qwen2.5-1.5B for Irish, comparing two strategies: retaining the original tokenizer versus replacing it with a custom, from-scratch Irish/English BPE vocabulary. Developed as part of an MSc dissertation at the University of St Andrews.
+Continued pretraining and tokenizer adaptation of Qwen2.5-1.5B for Irish, comparing two strategies: retaining the original tokenizer versus replacing it with a custom, from-scratch Irish/English BPE vocabulary.
 
 ## Overview
 
@@ -22,10 +22,6 @@ This repository contains the training, tokenizer-construction, and evaluation pi
 - `benchmarks/` — benchmark datasets and evaluation harnesses
 - `load_data/` — data loading utilities
 
-## Requirements
 
-See `requirements.txt` *(not yet present — see note below)*.
 
-## Usage
 
-*(Add specific commands for each pipeline stage — tokenizer training, CPT, evaluation.)*
